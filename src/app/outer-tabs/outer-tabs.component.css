@@ -1,0 +1,13 @@
+.nav nav-tabs{
+    margin-bottom: 20px
+}
+
+.nav-item{
+    background-color: rgb(232, 229, 229);
+    padding-left: 20px;
+}
+
+.nav-item:hover{
+    background-color: rgb(232, 229, 229);
+    opacity:0.5;
+}
