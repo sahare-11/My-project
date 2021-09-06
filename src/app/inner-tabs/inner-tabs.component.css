@@ -1,8 +1,27 @@
-/* Styles for tab labels */
 .inner-tab{
+    padding-left: 70px;
+    padding-top: 5px;   
+}
+
+.mat-tab-label {
+    min-width: 20px !important;
+    padding: 10px;
+    background-color: transparent;
+    color: #0262fe;
     font-size: 12px;
-    padding: -1px;
-    animation: none;
+    font-weight: 500;
     
+}
+
+.mat-tab-label.mat-tab-label-active {
+    min-width: 20px !important;    
+    animation: none;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: chocolate;
+    color: #0262fe;
+    font-size: 12px;
+    font-weight: 500;
+    opacity: 100;
 }
 
