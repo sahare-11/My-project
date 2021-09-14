@@ -3,6 +3,8 @@
   <img
     width="80"
     alt="Acme Logo"
+    routerLink="/"
+    style="cursor: pointer;"
     src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Acme_Markets_lolo.svg"
   />
   <div class="spacer"></div>
@@ -26,23 +28,4 @@
     
 </div>
 
-
-<div class="content">Knowledge Center</div>
-
-<div class="toolbar3" role="banner">
-
-  <app-menu-button></app-menu-button>
-  
-  <div class="spacer"></div>
-  
-  <app-menu-links></app-menu-links>
-      
-  </div>
-<!-- outer tab -->
-
-<div class="outerTabs">
-
-  <app-outer-tabs></app-outer-tabs>
-</div>
-
- 
+<router-outlet></router-outlet>
