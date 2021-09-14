@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule,routingComponents } from './app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
@@ -12,8 +12,6 @@ import { MenuButtonComponent } from './menu-button/menu-button.component';
 import { MenuLinksComponent } from './menu-links/menu-links.component';
 import { OuterTabsComponent } from './outer-tabs/outer-tabs.component';
 import { InnerTabsComponent } from './inner-tabs/inner-tabs.component';
-// import { MultiFormComponent } from './multi-form/multi-form.component';
-
 
 
 
@@ -25,8 +23,7 @@ import { InnerTabsComponent } from './inner-tabs/inner-tabs.component';
     MenuLinksComponent,
     OuterTabsComponent,
     InnerTabsComponent,
-    routingComponents,
-  
+
     
   ],
 
