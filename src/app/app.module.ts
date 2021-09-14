@@ -16,6 +16,7 @@ import { InnerTabsComponent } from './inner-tabs/inner-tabs.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { InnerTabsComponent } from './inner-tabs/inner-tabs.component';
     MenuLinksComponent,
     OuterTabsComponent,
     InnerTabsComponent,
+  
     
   ],
 
