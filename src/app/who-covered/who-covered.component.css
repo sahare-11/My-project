@@ -1,0 +1,74 @@
+p{
+    margin-top: 35px;
+}
+
+.title{
+    margin-top: 180px;
+}
+
+.input-text{
+    text-align: center;
+    color: grey;
+}
+.progress{
+    margin-bottom: 25px;
+}
+.form-control{
+    margin-top: -1px;
+    border-radius: 10px;
+    border-bottom-width: 3px;
+    border-left-width:0px;
+    border-top-color: white;
+    border-right-color: white
+}
+.form-label{
+    font-size: 14px;
+    margin-bottom: -1px;
+
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 450px;   
+}
+
+.card-body{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+
+}
+
+.button{
+    margin-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 700px;
+}
+
+.button-prev {
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    padding-bottom: 25px;
+  }
+  .button-prev:hover{
+      background-color: rgb(212, 211, 211);
+  }
+
+  .button-next {
+    margin-left: 10px;  
+    background-color:#83beeb;
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    padding-bottom: 25px;
+    display: inline-block;
+    font-size: 12px;
+  }
+
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }

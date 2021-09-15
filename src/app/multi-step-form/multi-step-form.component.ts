@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 
+
 @Component({
   selector: 'app-multi-step-form',
   templateUrl: './multi-step-form.component.html',
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MultiStepFormComponent implements OnInit {
   
-
+  
   constructor() { }
 
   ngOnInit(): void {
