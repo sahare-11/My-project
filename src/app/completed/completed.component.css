@@ -1,0 +1,12 @@
+.title{
+    margin-top: 250px;
+    text-align: center;
+    font-size: 35px;
+}
+.spinner-border{
+    margin-left: 850px;
+    margin-top: 100px;
+    block-size: 200px;
+    width: 5rem;
+    animation-duration: 1s;
+}

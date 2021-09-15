@@ -19,6 +19,10 @@ import { WhoCoveredComponent } from './who-covered/who-covered.component';
 import {MatCardModule} from '@angular/material/card';
 
 
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +32,9 @@ import {MatCardModule} from '@angular/material/card';
     InnerTabsComponent,
     routingComponents,
     WhoCoveredComponent,
+    
+    
+    
   ],
 
   imports: [
