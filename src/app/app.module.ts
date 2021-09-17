@@ -16,7 +16,9 @@ import { MenuLinksComponent } from './menu-links/menu-links.component';
 import { OuterTabsComponent } from './outer-tabs/outer-tabs.component';
 import { InnerTabsComponent } from './inner-tabs/inner-tabs.component';
 import { WhoCoveredComponent } from './who-covered/who-covered.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
+import { DemoExampleComponent } from './demo-example/demo-example.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 
 
@@ -32,12 +34,14 @@ import {MatCardModule} from '@angular/material/card';
     InnerTabsComponent,
     routingComponents,
     WhoCoveredComponent,
+    DemoExampleComponent,
     
     
     
   ],
 
   imports: [
+    MatCheckboxModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
@@ -49,6 +53,7 @@ import {MatCardModule} from '@angular/material/card';
     MatFormFieldModule,
     MatDatepickerModule,
     MatCardModule
+    
 
   ],
   providers: [],

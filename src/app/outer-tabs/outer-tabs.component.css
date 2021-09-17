@@ -1,14 +1,27 @@
 .nav nav-tabs{
-    margin-bottom: 20px
+    margin-bottom: 0px
 }
 
 .nav-item{
-    background-color: rgb(232, 229, 229);
+    
     padding-left: 70px;
    
 }
 
-.nav-item:hover{
-    background-color: rgb(232, 229, 229);
-    opacity:0.5;
+
+.nav-link{
+    
+    margin-left: 70px;
+    padding-right: 50px;
+    
+    
 }
+
+.nav-link:active{
+    background-color: rgb(232, 229, 229);
+    text-decoration: underline;
+    text-decoration-color: #0262fe;
+    color: #0262fe;
+    
+}
+

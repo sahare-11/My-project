@@ -1,12 +1,13 @@
-<div class="inner-tab">
-  <mat-tab-group animationDuration="0ms">
-    <mat-tab label="Overview" >Content 1</mat-tab>
-    <mat-tab label="Eat Well">Content 2</mat-tab>
-    <mat-tab label="Get Fit">Content 3</mat-tab>
-    <mat-tab label="Stay Well" >Content 4</mat-tab>
-    <mat-tab label="Be Happy">Content 4</mat-tab>
-    <mat-tab label="Healthy Kids">Content 5</mat-tab>
-    <mat-tab label="Health Care 101">Content 6</mat-tab>
-  </mat-tab-group>
-</div>
 
+<div class="inner-tab">    
+  <mat-tab-group [selectedIndex]="selected.value"
+                 (selectedIndexChange)="selected.setValue($event)">
+    <mat-tab *ngFor="let tab of tabs; let index = index" [label]="tab">
+  
+      <br>
+      Contents for {{tab}} tab
+       <br>
+    </mat-tab>
+  </mat-tab-group>
+  
+</div>

@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-outer-tabs',
   templateUrl: './outer-tabs.component.html',
   styleUrls: ['./outer-tabs.component.css']
 })
-export class OuterTabsComponent implements OnInit {
+export class OuterTabsComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  outtabs: string[] = ['Health & Benefits','Money Management','Life Events'];
+  selectedwallet = this.outtabs[0];
+  
 
 }

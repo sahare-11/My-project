@@ -10,7 +10,6 @@
     color: #0262fe;
     font-size: 12px;
     font-weight: 500;
-    
 }
 
 .mat-tab-label.mat-tab-label-active {
@@ -18,7 +17,7 @@
     animation: none;
     background-color: transparent;
     text-decoration: underline;
-    text-decoration-color: chocolate;
+    text-decoration-color: #0262fe;
     color: #0262fe;
     font-size: 12px;
     font-weight: 500;

@@ -4,17 +4,21 @@ p{
 
 .title{
     margin-top: 180px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .input-text{
     text-align: center;
+    
     color: grey;
+
 }
 .progress{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19);
     border-radius: 15px;
-    width: 800px;
-    margin-left: 500px;
+    width: 850px;
+    margin-left: 450px;
 }
 .form-control{
     margin-top: -1px;
@@ -32,7 +36,9 @@ p{
 
 .flex-container {
     display: flex;
-    margin-left: 450px;   
+    margin-left: 450px;  
+    padding-top: 20px;
+    padding-bottom: 20px; 
 }
 
 .card-body{
@@ -49,12 +55,12 @@ p{
 .button-prev {
     border: none;
     color: white;
-    padding: 12px 28px;
+    padding: 12px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
   }
   .button-prev:hover{
       background-color: rgb(212, 211, 211);
@@ -67,13 +73,18 @@ p{
     color: white;
     padding: 12px 28px;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 18px;
     display: inline-block;
     font-size: 12px;
   }
 
   hr.solid {
     border-top: 3px solid #bbb;
+    
   }
 
+  hr.solidlast {
+      padding-bottom: 30px;
+    border-top: 3px solid #bbb;
+  }  
   

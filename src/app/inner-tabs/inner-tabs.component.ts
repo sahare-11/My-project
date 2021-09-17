@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {ViewEncapsulation} from '@angular/core';
+import {FormControl} from '@angular/forms';
 
 @Component({
   selector: 'app-inner-tabs',
@@ -7,11 +8,8 @@ import {ViewEncapsulation} from '@angular/core';
   styleUrls: ['./inner-tabs.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class InnerTabsComponent implements OnInit {
+export class InnerTabsComponent  {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  tabs = ['Overview','Eat Well','Get Fit','Stay Well','Be Happy','Healthy Kids','Health Care 101'];
+  selected = new FormControl(0);
 }

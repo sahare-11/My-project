@@ -7,13 +7,12 @@
 
 <hr class="solid">
 
-
 <div class="flex-container">
 <div class="card" style="width: 18rem;">
     <div class="card-body">
       <h5 class="card-title">USER</h5>
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">First Name</label>
+        <label for="formGroupExampleInput" class="form-label">First Name<a style="color: red;">*</a></label>
         <input type="text" class="form-control" id="formGroupExampleInput" >
       </div>
       
@@ -23,23 +22,32 @@
       </div>
        
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Birthdate</label>
+        <label for="formGroupExampleInput" class="form-label">Birthdate<a style="color: red;">*</a></label>
         <input type="text" class="form-control" id="formGroupExampleInput" >
       </div>
 
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">SSN</label>
+        <label for="formGroupExampleInput" class="form-label">SSN<a style="color: red;">*</a></label>
         <input type="text" class="form-control" id="formGroupExampleInput" >
       </div>
 
       <div class="mb-3">
-        <label for="formGroupExampleInput" class="form-label">Gender</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" >
+        <label for="formGroupExampleInput" class="form-label">Gender</label>        
+        <select  class="form-control">
+          <option selected>Select</option>
+          <option>Male</option>
+          <option>Female</option>
+          <option>Prefer not to say</option>
+        </select>
       </div>
 
       <div class="mb-3">
         <label for="formGroupExampleInput" class="form-label">Relationship</label>
-        <input type="text" class="form-control" id="formGroupExampleInput" >
+        <select  class="form-control">
+          <option selected>Select</option>
+          <option>Item 1</option>
+          <option>Item 2</option>          
+        </select>
       </div>
       <a  class="card-link" >Address</a>
     </div>
@@ -49,7 +57,7 @@
             <div class="card-body" >
                 <h5 class="card-title">Dependent 1</h5>
                 <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">First Name</label>
+                <label for="formGroupExampleInput" class="form-label">First Name<a style="color: red;">*</a></label>
                 <input type="text" class="form-control" id="formGroupExampleInput" >
                 </div>
                 
@@ -59,23 +67,32 @@
                 </div>
                 
                 <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">Birthdate</label>
+                <label for="formGroupExampleInput" class="form-label">Birthdate<a style="color: red;">*</a></label>
                 <input type="text" class="form-control" id="formGroupExampleInput" >
                 </div>
         
                 <div class="mb-3">
-                <label for="formGroupExampleInput" class="form-label">SSN</label>
+                <label for="formGroupExampleInput" class="form-label">SSN<a style="color: red;">*</a></label>
                 <input type="text" class="form-control" id="formGroupExampleInput" >
                 </div>
         
                 <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">Gender</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" >
+                <select  class="form-control">
+                  <option selected>Select</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                  <option>Prefer not to say</option>
+                </select>
                 </div>
         
                 <div class="mb-3">
                 <label for="formGroupExampleInput" class="form-label">Relationship</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" >
+                <select  class="form-control">
+                  <option selected>Select</option>
+                  <option>Item 1</option>
+                  <option>Item 2</option>          
+                </select>
                 </div>
             </div>
         </div>
@@ -97,7 +114,7 @@
 </p>
 
       <div class="input-text">
-        <input type="checkbox">
+        <input style="cursor: pointer;" type="checkbox">
         By checking this box you signify that you understand the dependent eligibility requirements and agree with the terms above
       </div>
    
@@ -115,3 +132,6 @@
     </div>
      
 </div>
+
+<hr class="solidlast">
+

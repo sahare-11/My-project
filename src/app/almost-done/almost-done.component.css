@@ -40,7 +40,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
   }
   .button-prev:hover{
       background-color: rgb(212, 211, 211);
@@ -53,7 +53,7 @@
     color: white;
     padding: 12px 28px;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     display: inline-block;
     font-size: 12px;
   }
