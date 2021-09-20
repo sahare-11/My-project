@@ -4,6 +4,8 @@ p{
 
 .title{
     margin-top: 180px;
+    margin-left: 350px;
+    margin-right: 350px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -14,12 +16,7 @@ p{
     color: grey;
 
 }
-.progress{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19);
-    border-radius: 15px;
-    width: 850px;
-    margin-left: 450px;
-}
+
 .form-control{
     margin-top: -1px;
     border-radius: 10px;
@@ -36,9 +33,9 @@ p{
 
 .flex-container {
     display: flex;
-    margin-left: 450px;  
     padding-top: 20px;
     padding-bottom: 20px; 
+    justify-content: center;
 }
 
 .card-body{
@@ -46,10 +43,16 @@ p{
 
 }
 
-.button{
-    margin-top: 25px;
+ .button{
+    /* margin-top: 25px; */
     padding-bottom: 25px;
-    margin-left: 700px;
+    align-items: center;
+    margin-left: 750px;
+    position:relative;
+    padding-bottom: 118px;
+    top: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .button-prev {
@@ -76,15 +79,43 @@ p{
     padding-bottom: 18px;
     display: inline-block;
     font-size: 12px;
-  }
+  } 
 
   hr.solid {
     border-top: 3px solid #bbb;
     
   }
 
-  hr.solidlast {
+  .card-link{
+    cursor: pointer;
+  }
+
+  .card-link:hover{
+    color: red;
+  }
+
+  /* hr.solidlast {
       padding-bottom: 30px;
     border-top: 3px solid #bbb;
-  }  
+  }   */
   
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7c8288;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+
+  .progress{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19); */
+    border-radius: 15px;
+    width: 850px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    margin-left: 240px;
+    /* justify-content: center; */
+}

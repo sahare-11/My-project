@@ -1,6 +1,11 @@
 
 .title{
     margin-top: 180px;
+    margin-top: 180px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 .vl {
     border-left: 6px solid green;
@@ -8,17 +13,12 @@
     display: inline;
 }
 
-.progress{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19);
-    border-radius: 15px;
-    width: 800px;
-    margin-left: 500px;
-}
+
 .flex-container {
     display: flex;
-    margin-left: 600px;   
-    margin-top: 50px;;
-    margin-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    justify-content: center;
 }
 
 .card-body{
@@ -56,3 +56,24 @@
     display: inline-block;
     font-size: 12px;
   }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #7c8288;
+    color: white;
+    text-align: center;
+    align-items: center;
+  }
+
+  .progress{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.19); */
+    border-radius: 15px;
+    width: 850px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    margin-left: 240px;
+    /* justify-content: center; */
+}

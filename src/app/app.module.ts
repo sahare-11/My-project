@@ -19,6 +19,7 @@ import { WhoCoveredComponent } from './who-covered/who-covered.component';
 import { MatCardModule } from '@angular/material/card';
 import { DemoExampleComponent } from './demo-example/demo-example.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -35,6 +36,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     routingComponents,
     WhoCoveredComponent,
     DemoExampleComponent,
+    FooterComponent,
     
     
     
